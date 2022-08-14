@@ -3,7 +3,7 @@ import csv
 
 from django.core.management.base import BaseCommand
 
-from devpro.core.models import Author
+from core.models import Author
 
 
 class Command(BaseCommand):

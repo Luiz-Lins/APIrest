@@ -4,7 +4,7 @@ import pytest
 
 from django.shortcuts import resolve_url
 
-from devpro.core.models import Author
+from core.models import Author
 
 pytestmark = pytest.mark.django_db
 list_authors_url = resolve_url('core:list-authors')

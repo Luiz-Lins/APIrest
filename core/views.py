@@ -3,7 +3,7 @@ import json
 from django.http import JsonResponse
 from django.core.paginator import Paginator
 
-from devpro.core.models import Author
+from core.models import Author
 
 DEFALT_PAGE_SIZE = 25
 
